@@ -1,0 +1,178 @@
+body {
+    background-color: #473a8d;
+    color: black;
+}
+
+.new-container {
+    width: 80vw;
+    height: fit-content;
+    background-color: white;
+    border-left: 10px solid #8686f3;
+    padding: 50px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+h4{
+    display: flex;
+    margin-left: 550px;
+}
+
+.number{
+    font-size: 1em;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin: 10px;
+}
+
+.question{
+    margin-top: -50px;
+    padding: 50px;
+    text-align: center;
+}
+
+.options{
+    width: 30vw;
+    height: 5vh;
+    background-color: rgb(37, 128, 255);
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+}
+
+.answers{
+    display: grid;
+    row-gap: 20px;
+    grid-template-columns: auto auto;
+    place-items: center;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-top: 50px;
+
+}
+
+.previous button{
+    background-color: orange;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+.next button{
+    background-color: palevioletred;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+.quit button{
+    background-color: rgb(255, 57, 57);
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+.previous button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.next button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.quit button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.result-heading{
+    color: white;
+    text-align: center;
+}
+
+.noofq{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.noofa{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.noofc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.noofw{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+}
+
+.dialogbox h2{
+    padding: 20px;
+}
+
+.two-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+#play-again{
+    background-color: rgb(80, 255, 80);
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+#play-again:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#back-2-home{
+    background-color: rgb(255, 80, 80);
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+#back-2-home:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
